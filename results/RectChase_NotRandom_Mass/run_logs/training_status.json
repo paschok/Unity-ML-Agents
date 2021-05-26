@@ -1,0 +1,29 @@
+{
+    "RectChaser": {
+        "checkpoints": [
+            {
+                "steps": 58513,
+                "file_path": "results/RectChase_NotRandom_Mass/RectChaser/RectChaser-58513.onnx",
+                "reward": -0.5428571428571428,
+                "creation_time": 1621985189.0916631,
+                "auxillary_file_paths": [
+                    "results/RectChase_NotRandom_Mass/RectChaser/RectChaser-58513.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 58513,
+            "file_path": "results/RectChase_NotRandom_Mass/RectChaser.onnx",
+            "reward": -0.5428571428571428,
+            "creation_time": 1621985189.0916631,
+            "auxillary_file_paths": [
+                "results/RectChase_NotRandom_Mass/RectChaser/RectChaser-58513.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.7.0"
+    }
+}

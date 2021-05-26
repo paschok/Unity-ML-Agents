@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1621963902",
+        "python_version": "3.7.10 (default, Feb 26 2021, 10:16:00) \n[Clang 10.0.0 ]",
+        "command_line_arguments": "/Users/paulmospan/opt/anaconda3/envs/mlagents_latest/bin/mlagents-learn config/rollerball_config.yaml --run-id=RollerBall_1",
+        "mlagents_version": "0.26.0",
+        "mlagents_envs_version": "0.26.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0",
+        "numpy_version": "1.20.3",
+        "end_time_seconds": "1621963920"
+    },
+    "total": 18.203116603,
+    "count": 1,
+    "self": 0.01053088400000135,
+    "children": {
+        "run_training.setup": {
+            "total": 0.083850392,
+            "count": 1,
+            "self": 0.083850392
+        },
+        "TrainerController.start_learning": {
+            "total": 18.108735327,
+            "count": 1,
+            "self": 0.0006794220000010398,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 18.108032698000002,
+                    "count": 1,
+                    "self": 18.108032698000002
+                },
+                "trainer_threads": {
+                    "total": 1.621999999201762e-06,
+                    "count": 1,
+                    "self": 1.621999999201762e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 2.1584999998935928e-05,
+                    "count": 1,
+                    "self": 2.1584999998935928e-05
+                }
+            }
+        }
+    }
+}
